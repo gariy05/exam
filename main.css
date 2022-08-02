@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin','Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__box{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header__item{
+    list-style: none;
+    display: flex;
+}
+
+.header__link{
+    text-decoration: none;
+    padding: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #6C6C6C;
+}
+
+.header__links{
+    text-decoration: none;
+    padding: 5.71px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #6C6C6C;
+}
+
+.active{
+    color: #AC1313;
+}
+
+.header__link--img{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav{
+    margin-left: auto;
+    margin-top: 34px;
+    margin-right: 150px;
+}
+
+.Header__img{
+    margin-left: 150px;
+    margin-top: 13px;
+}
+
+.hero__section{
+    background-image: url("../img/img1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.hero__header{
+    width: 442px;
+    height: 116px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h1::before{
+    color: #D77474;
+    content: "Pompeo Pottery";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+
+.hero__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.hero__link{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.hero__box--link{
+    border: 1px solid  #AC1313;
+    background: #AC1313;
+    width: 201px;
+    height: 62px;
+    box-sizing: border-box;
+    padding: 21px 35px;
+    
+}
+
+
+.hero__box{
+    display: flex;
+    align-items: center;
+    margin-left: 114px;
+
+}
+
+
+.main__header::before{
+    content: "Product Categories";
+    color: #D77474;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+    text-align: center;
+}
+
+.main__box--img{
+    margin-left: 120px;
+}
+
+.main__img{
+    padding: 50px;
+}
+
+.main__header3{
+    width: 179px;
+   
+}
+
+.main__header-3{
+    width: 323px;
+    margin-left: 140px;
+}
+
+.main__text-1{
+    width: 509px;
+    margin-left: 140px;
+}
+
+.main__text{
+    width: 509px;
+}
+
+
+.main__box--text{
+    display: flex;
+    align-items: center;
+    margin-left: 109px;
+}
+
+
+.main__boxs--img{
+    margin-top: 228px;
+    margin-left: 269px; 
+}
+
+
+
+.main__header4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.main__texts{
+    width: 388px;
+}
+
+.main_texts{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.main__texts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.main__boxs{
+    display: flex;
+    align-items: center;
+}
+
+.main__boxs--text--header{
+    margin-left: 221px;
+    margin-top: 100px;
+}
+
+
+.main__itemm{
+    list-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.main__header5::before{
+    content: "Our online store";
+    color: #D77474;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+
+.main__item--box{
+    list-style: none;
+
+}
+
+.main__item--text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.main__item--code{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.main__box--item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.item__link{
+    border: 1px solid  #AC1313;
+    background: #AC1313;
+    width: 201px;
+    height: 62px;
+    padding: 21px 35px;
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 600px;
+    box-sizing: border-box;
+}
